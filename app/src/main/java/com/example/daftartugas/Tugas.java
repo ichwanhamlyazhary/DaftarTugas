@@ -13,12 +13,6 @@ public abstract class Tugas extends AppCompatActivity {
     public Tugas() {
     }
 
-    // constructor dengan argumen
-    public Tugas(String judul, String deskripsi) {
-        this.judul = judul;
-        this.deskripsi = deskripsi;
-    }
-
     // enkapsulasi
     // subclass yang mewarisi kelas abstrak Tugas harus menggunakan setter dan getter untuk mengakses atribut
     public String getJudul() {
